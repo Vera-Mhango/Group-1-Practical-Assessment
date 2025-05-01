@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newproducts.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="tabs">
+            <a href="/Home">Home</a>
+            <a href="/products">Products</a>
+            <a href="/newproducts" class="onit">New Products</a>
+            <a href="/dashboard">Dashboard</a>
+        </div>
+        <div class="other">
+            <a href="/login">Logout</a>
+        </div>
+    </nav>
+    <main>
+    <h3>Add Product</h3><br>
+        <form action="/products" method="POST">
+            <label for="product name">Product name</label><br>
+            <input type="text" name="name" reuqired><br>
+            <label for="category">Category</label><br>
+            <select name="category" style="background-color: rgb(224, 224, 224); width: 178px;" required>
+                <option  value="Electronics" >Electronics  </option>
+                <option  value="Bevereges"   >Bevereges    </option>
+                <option  value="Toiletries"  >Toiletries   </option>
+                <option  value="Automative"  >Automative   </option>
+                <option  value="Stationary"  >Stationary   </option>
+                <option  value="Hardware"    >Hardware     </option>
+                <option  value="Clothing"    >Clothing     </option>
+                <option  value="Household"   >Household    </option>
+            </select><br>
+            <label for="quantity">Quantity</label><br>
+        <input type="number" name="quantity" required><br>
+        <label for="Price">Price</label><br>
+        <input type="number" name="price" required><br><br>
+        <button style="background-color: rgb(72, 72, 252); color: white; padding: 0.5rem; border: none; width: 3.5rem; border-radius: 3px;">Save</button>
+        </form>
+    </main>
+</body>
+</html>
