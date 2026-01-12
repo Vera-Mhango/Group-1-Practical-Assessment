@@ -15,18 +15,6 @@ This repository contains a simple interactive web app created as part of a group
 
 ---
 
-## 📁 Project Structure
-
-Group-1-Practical-Assessment/
-├── styles/ ← CSS styles for layout and visual design
-├── views/ ← EJS templates for HTML rendering
-├── index.js ← Main JavaScript logic
-├── products.json ← Sample data used to render content
-├── package.json ← Project dependencies
-└── package-lock.json ← Locked dependency versions
-
----
-
 ## 📝 License
 This project is open source but please do not modify. You are still free to use the code in your own beginner projects.
 
