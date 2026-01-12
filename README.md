@@ -27,6 +27,11 @@ Group-1-Practical-Assessment/
 
 ---
 
+## 📝 License
+This project is open source but please do not modify. You are still free to use the code in your own beginner projects.
+
+---
+
 ## 🚀 How to Run Locally
 
 1. **Clone the repository**
@@ -35,15 +40,7 @@ Group-1-Practical-Assessment/
    cd Group-1-Practical-Assessment
 Install dependencies
 
-```bash
+   ```bash
 Copy code
 npm install
-Start the app
-
-```bash
-Copy code
-npm start
-Then open your browser and go to:
-
-## 📝 License
-This project is open source but please do not modify. You are still free to use the code in your own beginner projects.
+Start the app; npm start
